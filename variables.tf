@@ -1,5 +1,5 @@
 variable "region" {
-  description = "Region that the instances will be created"
+  description = "Region that the instances will be creaated"
 }
 
 /*====
