@@ -75,4 +75,5 @@ resource "aws_db_instance" "rds" {
   tags {
     Environment = "${var.environment}"
   }
+  storage_encrypted = true
 }
